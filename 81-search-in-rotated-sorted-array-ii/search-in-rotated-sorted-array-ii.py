@@ -7,11 +7,11 @@ class Solution:
             mid=(L+H)//2
             if nums[mid]==target:
                 return True
-                
+
             if nums[L]==nums[mid]==nums[H]:
                 L+=1
                 continue
-
+                
             if nums[L]<=nums[mid]:
                 if nums[L]<=target and  target < nums[mid]:
                     H = mid-1
