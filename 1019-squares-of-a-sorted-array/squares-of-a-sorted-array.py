@@ -5,3 +5,5 @@ class Solution:
             ans.append(x * x)
         ans.sort()
         return ans
+        
+   
