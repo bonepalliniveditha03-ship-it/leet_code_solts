@@ -6,11 +6,8 @@ class Solution:
 
         for x in nums:
             t += x
-
             if t - k in mp:
                 c += mp[t - k]
-
             mp[t] = mp.get(t, 0) + 1
-
         return c
         
